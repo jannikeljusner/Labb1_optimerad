@@ -59,18 +59,38 @@
 
         <!--Behållare flexbox/grid-->
         <div class="gallery-container">
-          <img
-            src="images/bildserie001.jpg"
-            alt="[Färgglada hus längs en kanal med båtar]"
-          />
-          <img
-            src="images/bildserie002.jpg"
-            alt="[Bild tagen underifrån på gamla ruiner]"
-          />
-          <img
-            src="images/bildserie003.jpg"
-            alt="[En grupp bergsklättrare påväg uppåt]"
-          />
+          <picture>
+            <source srcset="images/bildserie001.webp" type="image/webp" />
+            <img
+              src="images/bildserie001.jpg"
+              alt="[Färgglada hus längs en kanal med båtar]"
+              width="1920"
+              height="1779"
+              loading="lazy"
+            />
+          </picture>
+
+          <picture>
+            <source srcset="images/bildserie002.webp" type="image/webp" />
+            <img
+              src="images/bildserie001.jpg"
+              alt="[Bild tagen underifrån på gamla ruiner]"
+              width="1920"
+              height="2560"
+              loading="lazy"
+            />
+          </picture>
+
+          <picture>
+            <source srcset="images/bildserie003.webp" type="image/webp" />
+            <img
+              src="images/bildserie001.jpg"
+              alt="[En grupp bergsklättrare påväg uppåt]"
+              width="1920"
+              height="2596"
+              loading="lazy"
+            />
+          </picture>
         </div>
       </section>
     </main>
