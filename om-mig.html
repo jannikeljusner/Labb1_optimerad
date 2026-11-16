@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startsida</title>
+
+    <!-- Favicon för webbläsarfliken -->
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Länk till CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sidhuvud med logotyp, navigering och hero-bild -->
+    <header>
+      <div class="top-bar">
+        <img src="images/logo.svg" alt="Webbplatsens logotyp" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="redigering.html">Bildredigering</a></li>
+            <li><a href="om-mig.html">Om mig</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <picture>
+        <source srcset="images/header.webp" type="image/webp" />
+        <img
+          src="images/header.jpg"
+          alt="Turkost hav, klippor och hotell i fjärran"
+          class="hero"
+          width="1920"
+          height="1080"
+        />
+      </picture>
+    </header>
+
+    <!-- Sidans  huvudinnehåll -->
+    <main>
+      <section class="about-section">
+        <div class="text-center">
+          <h1>Om mig</h1>
+        </div>
+
+        <!--Text & Bild bredvid varandra-->
+        <div class="about-content">
+          <!--Profilbild-->
+          <img
+            src="images/portrait.png"
+            alt="[Frilagt porträtt]"
+            class="profile-pic"
+          />
+
+          <div class="about-text">
+            <h2>Halloj, jag heter Jannike!</h2>
+            <p>
+              Arbetat med hundträning och rehab av hundar i många år, byter nu
+              bana helt och pluggar webbutveckling
+            </p>
+            <p>
+              Även om jag arbetat med bilder dagligen tidigare för sociala
+              medier, hemsida m.m. så var det i alla fall 10 år sedan man satt
+              och lekte runt i photoshop och redigerade bilder, så tog någon
+              timme för att komma in i det igen.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Sidfot -->
+    <footer>
+      <p>&copy; 2026 Laboration 1.2 - Grafisk Teknik</p>
+    </footer>
+  </body>
+</html>

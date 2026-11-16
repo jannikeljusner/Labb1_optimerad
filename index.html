@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Startsida</title>
+
+    <!-- Favicon för webbläsarfliken -->
+    <link rel="icon" href="images/favicon.ico" />
+    <link rel="icon" href="images/favicon.png" />
+
+    <!-- Länk till CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Sidhuvud med logotyp, navigering och hero-bild -->
+    <header>
+      <div class="top-bar">
+        <img src="images/logo.svg" alt="Webbplatsens logotyp" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Startsida</a></li>
+            <li><a href="redigering.html">Bildredigering</a></li>
+            <li><a href="om-mig.html">Om mig</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <picture>
+        <source srcset="images/header.webp" type="image/webp" />
+        <img
+          src="images/header.jpg"
+          alt="Turkost hav, klippor och hotell i fjärran"
+          class="hero"
+          width="1920"
+          height="1080"
+        />
+      </picture>
+    </header>
+
+    <!-- Sidans huvudinnehåll -->
+    <main>
+      <!--1. Uppgiftsbeskrivningn och programvara-->
+      <section class="intro text-center">
+        <h1>Laboration 1.2 - Bildbehandling</h1>
+        <p>
+          I denna uppgift har jag arbetat med digital bildbehandling för att
+          skapa en enhetlig bildserie anpassad för webben
+        </p>
+        <p>
+          För att färgkorrigera, beskära och frilägga bilderna har jag använt
+          mig av Photopea.
+        </p>
+      </section>
+
+      <!--2. Bildserien-->
+      <section class="image-gallery">
+        <h2>Min bildserie</h2>
+
+        <!--Behållare flexbox/grid-->
+        <div class="gallery-container">
+          <img
+            src="images/bildserie001.jpg"
+            alt="[Färgglada hus längs en kanal med båtar]"
+          />
+          <img
+            src="images/bildserie002.jpg"
+            alt="[Bild tagen underifrån på gamla ruiner]"
+          />
+          <img
+            src="images/bildserie003.jpg"
+            alt="[En grupp bergsklättrare påväg uppåt]"
+          />
+        </div>
+      </section>
+    </main>
+
+    <!-- Sidfot -->
+    <footer>
+      <p>&copy; 2026 Laboration 1.2 - Grafisk Teknik</p>
+    </footer>
+  </body>
+</html>
